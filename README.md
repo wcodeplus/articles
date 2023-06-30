@@ -1,33 +1,7 @@
-# articles
+# 文章列表
 
-9911-8917
+|分类|时间|标题|
+|---|---|---|
+|底层原理|2023-06-30|[读Proxy理解vue2中对象的响应](./list/202306/读Proxy理解vue2中对象的响应.md)|
 
-参考：https://juejin.cn/post/7239536753971724344
-
-[菜鸟教程](./blog/abc.md)
-
-[菜鸟教程](./blog/abc.md)
-
-[菜鸟教程](./blog/abc.md)
-
-## 搭建过程
-
-1.新建一个仓库
- ```
- https://github.com/wcodeplus/articles
- ```
-2.用vscode克隆下来
-```
-在电脑D盘新建一个文件夹，如github/articles
-vscode打开github，在根目录下git init
-配置github的local级别账号
-克隆代码
-```
-3.安装vitepress
-
-```
-cd ./github/articles
-yarn init
-yarn add -D vuepress
-```
 
