@@ -1,5 +1,7 @@
 # 读Proxy理解vue2中对象的响应
 
+> 参考：https://juejin.cn/post/7221339835952758843
+
 ## 对象操作
 
 ### 一、基本操作
@@ -70,12 +72,10 @@ Object.defineProperty(person, "name", {
 
 ```
 const target = new Date();
-
 const proxy = new Proxy(target, {});
 
 console.log(proxy instanceof Date); // true
 proxy.getDate(); // TypeError: this is not a Date object.
-
 ```
 
 
