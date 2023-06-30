@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v1
         with:
-          node-version: "14.18.0"
+          node-version: "12.3.0"
 
       # 缓存 node_modules
       - name: Cache dependencies
